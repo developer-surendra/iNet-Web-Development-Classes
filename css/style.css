@@ -1,0 +1,175 @@
+h1 {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.about-us {
+    /* margin: 0 100px; */
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* .container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0% auto;
+    margin-top: 3%;
+
+    } */
+
+
+
+.title{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 35px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #1757e6, #9b59b6);
+    text-align: center;
+    padding-left: 18px;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    
+}
+
+form .user-details .input-box{
+    margin-bottom: 40px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box details{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+.user-details .input-box input,
+.user-details .input-box input:valid{
+border-color: #9b59b6
+
+}
+
+.radio .radiob{
+    padding-right: 125px;
+    display: block;
+}
+
+.option .details-option {
+    padding-right: 195px;
+    display: block;
+
+}
+form .button {
+    height: 45px;
+    width: 500px;
+    padding-top: 50px;
+    margin: 0px auto;
+
+}
+
+form .button input {   
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #1757e6, #9b59b6);
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+
+@media only screen and (max-width: 300px){
+    .prev, .next {
+        font-size: 11px;
+    }
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  

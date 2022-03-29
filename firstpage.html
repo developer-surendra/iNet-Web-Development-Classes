@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>First Page</title>
+       <link rel="icon" type="image/x-icon" href="https://www.inetsoftwaresolutions.co.uk/images/logo-icon.png">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script> -->
+
+       <style>
+           .square {
+               width: 20%;
+               border: 2px solid #000;
+               padding: 15px;
+               border-radius: 5px;
+               text-align: center;
+               float: left;
+               margin: 25px;
+           }
+           .new-table {
+                   width: 80%;
+                   clear: both;
+                   margin: 0 auto;
+                }
+                .new-table th {
+                    border: 1px solid #000;
+                }
+            .gomeez {
+                clear: both;
+            }
+            /* table, th, td  { 
+                border: 1px solid #000;
+            }
+
+            table {
+                width: 80%;
+                border-collapse: collapse;
+                box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.24);
+                text-align: center;
+                margin: 100px auto;
+            } */
+
+            .iframe-session {
+                text-align: center;
+            }
+            .map {
+                text-align: center;
+            }
+
+       </style>
+   </head> 
+   <body>
+       <header>
+           <ul>
+               <li>Home Page</li>
+               <li>About Us</li>
+               <li>Contact Us</li>
+           </ul>
+           
+       </header>
+       <section>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width: 100%;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width: 100%;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width: 100%;">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+    </section>
+       <div class="about-us">
+        <h1>About Us</h1>
+        <h4>Urbon Oxygen</h4>
+        <p><span style="font-size: 20px; color: Blue;">Urb.Ox</span> is a high-tech enterprise integrating state-of-the-art R&D, designing, development, and manufacture of environmentally friendly products.
+         Our innovations are based on an understanding of our environment and the relationship between people’s way of living and the product. Complying with a simplistic and <b><em>'NATURAL LIVING'</em></b> philosophy, we choose to use natural eco-friendly materials as much as we can, while keeping the sustainability of the product in mind. What’s more, we are committed to original design.
+         Our excellent product ideas come from an accumulation of life experience, in-depth research, dedicated teamwork, and out-of-the-box thinking, leading to miraculous product developments!</p>
+ 
+         <p>1<sup>st</sup>, 10<sub>mg</sub></p>
+       </div>
+
+       <div class="square">
+           <img src="https://www.inetsoftwaresolutions.co.uk/images/mobile_icon.png">
+           <h4>Mobile Apps</h4>
+           <p>We know that a lot of work went into creating and establishing your brand...</p>
+       </div>
+       <div class="square">
+           <img src="https://www.inetsoftwaresolutions.co.uk/images/design_icon.png">
+           <h4>Clean Design</h4>
+           <p>We know that a lot of work went into creating and establishing your brand...</p>
+       </div>
+
+       <!-- <div class="new-table">
+            <h3>Omicron Cases in England</h3>
+            <table>
+                <tr>
+                    <th>Area</th>
+                    <th>Age Group</th>
+                    <th>Vaccinated?</th>
+                </tr>
+                <tr>
+                    <td>Hounslow</td>
+                    <td>80 +</td>
+                    <td>Yes</td>
+                </tr>
+            </table>
+       </div> -->
+
+       <!--this table is by gomeez-->
+       <div class="gomeez">
+        <table>
+            <thead>
+                <tr>
+                    <td rowspan="2"></td>
+                    <td colspan="2">Distance</td>
+                    <td colspan="2">Time</td>
+                </tr>
+                <tr>
+                    <td>Possible ways</td>
+            
+                    <td>Distance</td>
+                    <td>Time to arrival</td>
+            
+                    <td>Local/UTC time</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Destination 1</td>
+                    <td>Way 1</td>
+                    <td>2</td>
+                    <td>2H22</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Way 2</td>
+                    <td>7</td>
+                    <td>34M</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Destination 2</td>
+                    <td>Way 3</td>
+                    <td>10</td>
+                    <td>50M</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Way 4</td>
+                    <td>14</td>
+                    <td>8H45M</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Destination 3</td>
+                    <td>Way 5</td>
+                    <td>18</td>
+                    <td>TBD</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Way 6</td>
+                    <td>23</td>
+                    <td>TBD</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table> 
+       </div>
+
+       <!-- this table is by liam-->
+       <div class="liam">
+        <table>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="4"> Distance</th>
+                
+                <th colspan="4"> Time</th>
+            </tr>
+            <tr>
+            
+                <th colspan="2"> Possible ways</th>
+            
+                <th colspan="2"> Distance </th>
+                <th colspan="2">Time to arrival</th>
+                
+                <th colspan="2"> Local/UTC time</th>
+                
+                
+            </tr>
+            <tr>
+                <th rowspan="2">Destination 1</th>
+                <th colspan="2"> Way 1</th>
+                <th>400m</th>
+                <th>1600m</th>
+                <th colspan="2"> 2h22</th>
+                <th>19h25</th>
+                <th>19h25</th>
+            </tr>
+            <tr>
+                
+                <th colspan="2"> Way 2</th>
+                <th>200m</th>
+                <th>2200m</th>
+                <th colspan="2"> 24m</th>
+                <th>16h00</th>
+                <th>16h00</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Destination 2</th>
+                <th colspan="2"> Way 3</th>
+                <th>50m</th>
+                <th>800m</th>
+                <th colspan="2"> 50m</th>
+                <th>17h00</th>
+                <th>17h00</th>
+            </tr>
+            <tr>
+                
+                <th colspan="2"> Way 4</th>
+                <th>2850m</th>
+                <th>3200m</th>
+                <th colspan="2"> 8h45m</th>
+                <th>6pm</th>
+                <th>18h00</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Destination 3</th>
+                <th colspan="2"> Way 5</th>
+                <th>1m</th>
+                <th>1000m</th>
+                <th colspan="2"> TBD</th>
+                <th>TBD</th>
+                <th>TBD</th>
+            </tr>
+            <tr>
+                <th colspan="2"> Way 6</th>
+                <th>124m</th>
+                <th>4564m</th>
+                <th colspan="2"> TBD</th>
+                <th>TBD</th>
+                <th>TBD</th>
+            </tr>
+        </table>
+       </div>
+
+    <section style="background-image: url(https://www.inetsoftwaresolutions.co.uk/images/home_about_banner.png);background-repeat: no-repeat; background-attachment: fixed;">
+        <div class="container">
+            <form action="#">
+                <div class="title"><b>Form Details</b></div>
+                <div class="user-details">
+                    <div class="input-box">  
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter Your First Name here" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter Your Last Name here" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email ID</span>
+                        <input type="email"placeholder="Enter Your Email Address" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</label>
+                        <input type="tel"placeholder="Enter Your Phone Number" required>
+                    </div> 
+                    <div class="input-box">
+                        <span class="details">Message</span>
+                        <br>
+                        <textarea placeholder="Write a Message Here"></textarea>
+                    </div> 
+                    <div class="radio">
+                        <span class="radiob">Radio  Buttons</span>
+                        <br>
+                        <input type="radio" name="rb"> Yes
+                        <input type="radio" name="rb"> No
+                        <input type="radio" name="rb"> Maybe
+                    </div> 
+                    </br>
+                    <div class="checkbox">
+                        <span class="details">Select Your Favourate Places</span>  
+                        <br>   
+                        <input type="checkbox"> London
+                        <input type="checkbox"> Glasgow
+                        <input type="checkbox"> Wales
+                        <input type="checkbox"> Cheltenham
+                    </div>
+                    <div class="option">
+                        <span class="details-option">Places</label>
+                        <br>
+                        <select>
+                            <option>London</option>
+                            <option>Glasgow</option>
+                            <option>Cheltenham</option>
+                            <option>London</option>
+                            <option>Oxford</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="button" value="Sumbit">
+                </div> 
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-8">
+                    <img src="https://www.inetsoftwaresolutions.co.uk/images/home_about_banner.png" class="img-fluid">
+                </div>
+                <div class="col-xs-12 col-lg-4">
+                    <h4>WHAT WE ARE</h4>
+                    <p>I-NET Software Solutions is an emerging global technology solution, management consulting and outsourcing services provider situated in London and has offices in India.</p>
+
+                    <p>I-NET Software Solutions caters its services mainly in Europe, UK, Ireland and India.</p>
+
+                    <button>Know More</button>
+
+                    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul>
+                                <li>One</li>
+                                <li>Twp</li>
+                                <li>Three</li>
+                                <li>Four</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ol>
+                                <li>One</li>
+                                <li>Twp</li>
+                                <li>Three</li>
+                                <li>Four</li>
+                            </ol>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>One</li>
+                                <li>Twp</li>
+                                <li>Three</li>
+                                <li>Four</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ol>
+                                <li>One</li>
+                                <li>Twp</li>
+                                <li>Three</li>
+                                <li>Four</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+
+   </body>
+</html>

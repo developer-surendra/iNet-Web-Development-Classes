@@ -276,6 +276,23 @@ function mySort() {
     document.getElementById("array12").innerHTML = points2;
 }
 
+const april = [40, 100, 1, 25, 250, 10, 5];
+document.getElementById("array13").innerHTML = arrayMax(april);
+
+function arrayMax(arr){
+    return Math.max.apply(null, arr);
+}
+
+const mycars = [{model:"Audi", year:2016},{model:"BMW", year:2010}, {model:"Benz", year:2001}];
+
+mycars.sort(function(a, b){return b.year - a.year});
+
+displayCars();
+
+function displayCars() {
+    return document.getElementById("array14").innerHTML = mycars[0].model + " -> " +mycars[0].year + "<br>" + mycars[1].model + " -> " +mycars[1].year + "<br>" + mycars[2].model + " -> " +mycars[2].year;
+}
+
 
 
 
